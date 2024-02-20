@@ -331,6 +331,7 @@ namespace xadrez
             pecas.Add(peca);
         }
 
+
         private void colocarPecas()
         {
             colocarNovaPeca('a', 1, new Torre(tab, Cor.Branca));
