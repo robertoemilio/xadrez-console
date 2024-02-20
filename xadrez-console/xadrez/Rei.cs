@@ -69,6 +69,7 @@ namespace xadrez {
                 mat[pos.linha, pos.coluna] = true;
             }
 
+
             // #jogadaespecial roque
             if (qteMovimentos==0 && !partida.xeque) {
                 // #jogadaespecial roque pequeno
