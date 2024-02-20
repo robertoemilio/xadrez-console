@@ -15,6 +15,7 @@ namespace xadrez
         public bool xeque { get; private set; }
         public Peca vulneravelEnPassant { get; private set; }
 
+
         public PartidaDeXadrez()
         {
             tab = new Tabuleiro(8, 8);
